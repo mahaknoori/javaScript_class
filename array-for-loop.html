@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript first class</title>
+
+<script>
+
+    var car = {
+        
+            name: "Arish ",
+            age: 30,
+            bloodGrood: "B+",
+            dob: "08/12/1999",
+            id: 1,
+            name: "Leanne Graham",
+            username: "Bret",
+            email: "Sincere@april.biz"
+    };
+
+
+    for(const key in car) {
+        // console.log(car[key]);
+        console.log(car[key]);
+    }
+
+
+
+
+
+    // console.log(car.dor);
+  
+
+
+
+
+    var studentProfile = [
+        {
+            name: "Arish ",
+            age: 30,
+            bloodGrood: "B+",
+            dob: "08/12/1999"
+        },
+        {
+            name: "mahak",
+            age: 30,
+            bloodGrood: "B+",
+            dob: "08/12/1999"
+        }
+    ];
+
+    for (let i = 0; i < studentProfile.length; i++) {
+        var element = studentProfile[i];
+        console.log(element);
+
+        console.log(element.name + " = " + element.age + " : " + element.bloodGrood + " :  " + element.dob);
+  
+    }
+
+
+    // for loop
+
+// Strudent array
+
+var studentArray = [
+        "Arbaj",
+        "Arish",
+        "Mahak",
+        "Sameer",
+        "Mahak",
+        "Sameer",
+        "Tanishka"
+    ];
+
+
+
+
+    // for (var ini; condition; incriment or decriment)
+
+
+    var x = 10;
+
+    x++;
+
+
+    // x = x + 1;
+
+    console.log(x++); // 11, 12 = 11 + 1
+    console.log(x);
+
+    var i = 0;
+    console.log(studentArray.length);
+
+
+    for(i = 0; i < studentArray.length; i++) { 
+        console.log(studentArray[i]);
+
+    }
+
+
+</script>
+
+
+
+
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+
