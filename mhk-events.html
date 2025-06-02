@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script>
+
+
+  function clickMessage() {
+    alert("Hello everyone !");
+     }
+
+
+  function changeMessage() {
+    alert("You are change country name");
+  }
+
+  
+  let showMouseOverMessage = ()=> {
+    alert("This is mouseover alert");
+  }
+
+  let keyUpMessage = () => {
+    alert("this is keyup alert");
+  }
+
+   function changeText() {
+    alert("this is mouseover alert");
+  }
+
+  function doubleClick() {
+    alert("this is double click alert");
+  }
+
+  
+    </script>
+
+<body>
+
+    <button onclick="clickMessage()">Click Me</button><br><br>
+    <!-- <button onclick="changeMessage()">Button</button><br><br> -->
+
+    <select onchange="changeMessage()">
+
+            <option>
+                India
+            </option>
+            <option>
+                Australia
+            </option>
+            <option>
+                Turkey
+            </option>
+            <option>
+                South africa
+            </option>
+
+    </select><br><br>
+
+    <div doubleclick="showMouseOverMessage()"></div>
+         mahak <br><br>
+
+  
+    <!-- <form>
+    <label for="firstname">firstname</label>
+    <input type="text" id="Key" keyUpMessage="()" > <br><br>
+    </form>
+       -->
+    <form>
+    <label for = "first name">First Name:</label><br>
+    <input type = "text" id = "first name" onkeydown="keyUpMessage()" ><br><br>
+
+    <label for = "last name">Last Name:</label><br>
+    <input type = "text" id = "last name" ><br><br>
+ 
+
+    <label for = "father name">Father Name:</label><br>
+    <input type = "text" id = "father name"><br><br>
+
+
+    <label for = "mother name">mother Name:</label><br>
+    <input type = "text" id = "mother name"><br><br>
+    </form>
+ 
+
+    <div onmouseover="changeText()" style="padding: 10px; background-color:gray">
+    Have a nice day!
+    </div><br><br>
+
+    <div 
+       ondblclick="doubleClick()" 
+       style="padding: 10px; background-color:yellowgreen">
+       Double-click me!
+</div>
+
+
+  
+
+    
+</body>
+</html>

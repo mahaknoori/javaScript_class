@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <title>Document</title>
+
+<script> 
+
+    var Details = [ 
+    {
+        name:"mahak",
+        age:19,
+        bloodgroup:"A+",
+        dob:"18/1/2006",
+        email:"mahaknoori@12"
+    },
+    {
+        name:"tanish",
+        age:18,
+        bloodgroup:"B+",
+        dob:"10/1/2007",
+        email:"tanishsayyad@24"
+    },
+    {
+        name:"aqsa",
+        age:16,
+        bloodgroup:"A+",
+        dob:"16/4/2009",
+        email:"aqsa@00"
+    }
+];
+  
+   console.log( Details[2]);
+
+for ( let i=0;i < Details.length; i++) {
+    var element = Details[i];
+   console.log (element);
+
+    console.log(element.name + " = " + element.age + " = ")
+}
+
+</script>     
 </head>
 <body>
     
